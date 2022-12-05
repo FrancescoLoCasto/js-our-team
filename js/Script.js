@@ -38,10 +38,12 @@ const user = [
      ruolo: "Developer",
      foto: "scott-estrada-developer.jpg"
    },
-   
+
    {
      nome: "Barbara Ramos",
      ruolo: "Graphic Designer",
      foto: "barbara-ramos-graphic-designer.jpg"
    },
  ]
+
+ console.log(user)
