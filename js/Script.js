@@ -52,6 +52,12 @@ const user = [
       console.log(user[key])
    }
 
+   const divContentBox= document.getElementById('mainBox')
+
    for (let i = 0; i < user.length; i++){
-      
+      divContentBox.innerHTML +=
+      '<div class="userCard d-flex">' +
+      '<img src="img/' + user[i].foto + '">' +
+      '<div class="userName">' + user[i].nome + '</div>' +
+      '<p class="ruolo">' + user[i].ruolo + '</p>' + '</div>'
    }
