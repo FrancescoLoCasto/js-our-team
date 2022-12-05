@@ -52,4 +52,6 @@ const user = [
       console.log(user[key])
    }
 
-   for (let i = 0; i < user.length; i++)
+   for (let i = 0; i < user.length; i++){
+      
+   }
