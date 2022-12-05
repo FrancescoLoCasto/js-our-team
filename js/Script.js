@@ -46,4 +46,8 @@ const user = [
    },
  ]
 
- console.log(user)
+ //console.log(user)
+ 
+   for (let key in user){
+      console.log(user[key])
+   }
