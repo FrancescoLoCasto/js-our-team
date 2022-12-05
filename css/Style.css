@@ -4,7 +4,12 @@
    width: 400px;
    background-color: aqua;
    margin: 1rem;
-   border: 2px solid black;
+   border: 5px solid #1C6EA4;
+   border-radius: 22px 25px 0px 0px;
+}
+
+img{
+   border-radius: 17px 00px 0px 00px
 }
 
 .userName{
@@ -13,3 +18,10 @@
    font-size: 1rem;
 }
 
+h1{
+   font-family: 'Nerko One', cursive;
+}
+
+main{
+   background-color: cadetblue;
+}
